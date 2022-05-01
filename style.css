@@ -46,17 +46,33 @@ body {
     background-size: cover;
 }
 
-.home {
-    /* display: flex; */
-    
-}
-
-img {
+#self {
     display: block;
     border-radius: 12%;
     height: 500px;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 15%;
+    margin-top: 5%;
+    border: 1px solid;
+    box-shadow: 5px 10px 89px navy
 }
+
+
+.aboutme {
+    text-align: center;
+    flex-direction: row; 
+    margin: 25px 0;
+    padding: 10px 0;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+  }
+
+  .info {
+    text-align: center;
+    flex-direction: row; 
+    margin: 25px 0;
+    padding: 10px 0;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+  }
