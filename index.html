@@ -1,58 +1,80 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Isaak Morales</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initaial-scale=1.0">
-	<link rel="stylesheet" href="./style.css">
+    <title>Isaak Morales</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initaial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
 
-	<nav>
-		<div class="logo">
-			<p>Isaak Morales</p>
-		</div>
-		<ul>
-			<li><a href="#About Me">About Me</a></li>
-			<li><a href="#Projects">Projects</a></li>
-			<li><a href="./images/Resume 2022.pdf">Resume</a></li>
-			<li><a href="#Contact Me">Contact Me</a></li>
-		</ul>
-	</nav>
+    <nav>
+        <div class="logo">
+            <p>Isaak Morales</p>
+        </div>
+        <ul>
+            <li><a href="#About Me">About Me</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="./images/Resume 2022.pdf">Resume</a></li>
+            <li><a href="#Contact Me">Contact Me</a></li>
+        </ul>
+    </nav>
 
     <div>
         <img id="self" src="./images/picture-of-me.JPG" alt="Self picture">
     </div>
 
     <div>
-        <h1 class="aboutme">About Me</h1>
-        <p class="info">I am an inspiring Full Stack Web Developer who is looking to expand his knowledge and ready to take on some new projects whether 
-            its collaborating with team members or even working alone. 
+        <h1 class="aboutme" id="About Me">About Me</h1>
+        <p class="info">I am an inspiring Full Stack Web Developer who is looking to expand his knowledge and ready to
+            take on some new projects whether
+            its collaborating with team members or even working alone.
         </p>
     </div>
 
-    <div>
-        <h1>Projects</h1>
-            <div>
-            <a class="images" href="https://github.com/CallMeIce/Horiseon-Refactor"><img src="./images/Horiseon-Refactor-Website.png" alt="Horiseon Refactor Project" width="585.81px"></a>
-            <p>This was an intro to our class and showed us to change divs into articles, sections, asides, etc. and and was a good way to learn a little debugging.</p>
-            </div>
-               <a class="images" href="https://github.com/CallMeIce/Weekday-Planner"><img src="./images/Daily Plan.png" alt="Daily Planner" width="344px"></a>
-               <a class="images" href="https://github.com/CallMeIce/Weather-Dashboard"><img src="./images/_C__Users_isaak_Desktop_homework_Weather-Dashboard_index.html (1).png" alt="Weather Dashoard Project"></a>
-               <a class="images" href="https://github.com/CallMeIce/Password-Generator"><img src="./images/Password-Generator.html.png" alt="Password Generator"></a>
+    <div class="container">
+        <h1 id="Projects" >Projects</h1>
+        <div class="refactor">
+            <a class="images" href="https://github.com/CallMeIce/Horiseon-Refactor"><img
+                    src="./images/Horiseon-Refactor-Website.png" alt="Horiseon Refactor Project" width="585.81px"></a>
+            <p class="description">This assignment was an intro to our class and showed us to change divs into articles, sections, asides, etc. and and
+                was a good way to learn a little debugging.</p>
+        </div>
+
+        <div>
+            <a class="images" href="https://github.com/CallMeIce/Weekday-Planner"><img src="./images/Daily Plan.png"
+                    alt="Daily Planner" width="344px"></a>
+            <p>Daily Planner makes it easier to schedule appointments or events occuring from 9-5 on a daily basis.</p>
+        </div>
+
+        <div>
+            <a class="images" href="https://github.com/CallMeIce/Weather-Dashboard"><img
+                    src="./images/_C__Users_isaak_Desktop_homework_Weather-Dashboard_index.html (1).png"
+                    alt="Weather Dashoard Project"></a>
+            <p>An easy way to check for weather information on a 5 day basis that shows UV Index, temp, wind speed and date. This is currently still in the works.</p>
+        </div>
+
+        <div>
+            <a class="images" href="https://github.com/CallMeIce/Password-Generator"><img
+                    src="./images/Password-Generator.html.png" alt="Password Generator"></a>
+            <p>This application makes it easy to make a tough password with the options to include/exclude symbols,uppercase letters,lower case letters and numbers </p>
+        </div>
 
     </div>
 
     <footer>
-        <h1>Contact Me</h1>
+        <h1 id="Contact Me">Contact Me</h1>
         <ul>
             <li><a href="555.555.5555">555.555.5555</a></li>
             <li><a href="imorales@website.com">imorales@email.com</a></li>
             <li><a href="https://github.com/CallMeIce">Github</a></li>
             <li><a href="https://www.linkedin.com/in/isaak-morales-9466a0233/">LinkedIn</a></li>
-        </footer>
+    </footer>
 
 
 
 </body>
+
 </html>

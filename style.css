@@ -35,9 +35,6 @@ nav ul li a{
 	text-transform: uppercase;
 	padding:0px 32px;
 }
-a:hover{
-	color:#00ff00;
-}
 
 body {
     background-image: url('./images/vector-blue-squares-background.jpg');
@@ -103,4 +100,12 @@ footer > ul > li {
   display: flex;
   margin: auto;
   padding: 10px;
-                }
+}
+
+a:link {
+  color: skyblue;
+}
+
+a:hover {
+  color:#00ff00;
+}
