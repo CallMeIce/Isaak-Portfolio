@@ -10,7 +10,6 @@ nav{
 	background-color: #2d2e2e;
 	line-height: 75px;
 	padding:0px 100px;
-	position:fixed;
 	z-index: 1;
 }
 nav .logo{
@@ -76,3 +75,33 @@ h1 {
     font-weight: bolder;
     color: rgb(66, 65, 65);
   }
+
+  .images {
+  display: flex; 
+  text-align: center;
+  flex-flow: wrap;
+  flex-direction: row; 
+  margin: 25px 0;
+  padding: 10px 0;
+  font-weight: bolder;
+  cursor: auto;
+  opacity: 100;
+
+}
+
+footer > ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: auto;
+  font-size: 25px;
+  background-color: grey;  
+  color: white;
+}
+
+footer > ul > li {
+  display: flex;
+  margin: auto;
+  padding: 10px;
+                }
