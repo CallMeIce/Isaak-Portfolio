@@ -54,7 +54,8 @@ body {
 }
 
 
-h1 {
+h1,
+p {
     text-align: center;
     flex-direction: row; 
     margin: 25px 0;
@@ -109,3 +110,57 @@ a:link {
 a:hover {
   color:#00ff00;
 }
+
+
+@media screen and (max-width: 768px) {
+
+  body {
+    flex-wrap: wrap;
+        }
+
+  nav {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  
+  nav a {
+    float: none;
+    width: 100%;
+    flex-direction: column;
+        }
+  
+  section {
+    width: 100%;
+          }
+  
+  
+  .aboutme, 
+  .project >h1,
+  .contact >h1 {
+  
+    display: flex;
+    text-align: left;
+    padding-right: 15px;
+    border-right: 0px;
+  }        
+  
+  #me {
+    font-size: 1.5rem;
+      }
+  
+  .placeholder > a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  img {
+    width: 100%;
+      }
+  
+  footer a {
+    flex-direction: row;
+    flex-wrap: wrap;
+            }
+  }
+  
