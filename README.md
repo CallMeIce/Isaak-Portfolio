@@ -37,4 +37,4 @@ N/A
 
 Repo - https://github.com/CallMeIce/Isaak-Portfolio
 
-Deployed - 
+Deployed - https://callmeice.github.io/Isaak-Portfolio/
