@@ -16,7 +16,7 @@ This is a user friendly portfolio, meaning that all you would really have to do 
 4-Finally, if you are to scroll all the way down, my contact information is provided with easy clickable links
 
 
-![alt="Portfolio Image]()
+![alt="Portfolio Image](./images/screenshot.png)
 ## Credits
 
 www.bootstrap.com
